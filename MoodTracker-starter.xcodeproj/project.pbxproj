@@ -13,6 +13,7 @@
 		55CCD24E1DCA41EC0087F0C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CCD24C1DCA41EC0087F0C1 /* LaunchScreen.storyboard */; };
 		55CCD2561DCA427D0087F0C1 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCD2551DCA427D0087F0C1 /* FriendsTableViewController.swift */; };
 		55CCD25B1DCA42C10087F0C1 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCD25A1DCA42C10087F0C1 /* FriendTableViewCell.swift */; };
+		E02CCD421E2225F3001CAD40 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02CCD411E2225F3001CAD40 /* Mood.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		55CCD24F1DCA41EC0087F0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55CCD2551DCA427D0087F0C1 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendsTableViewController.swift; path = "View Controllers/FriendsTableViewController.swift"; sourceTree = "<group>"; };
 		55CCD25A1DCA42C10087F0C1 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendTableViewCell.swift; path = View/FriendTableViewCell.swift; sourceTree = "<group>"; };
+		E02CCD411E2225F3001CAD40 /* Mood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		55CCD2591DCA42970087F0C1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E02CCD411E2225F3001CAD40 /* Mood.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E02CCD421E2225F3001CAD40 /* Mood.swift in Sources */,
 				55CCD25B1DCA42C10087F0C1 /* FriendTableViewCell.swift in Sources */,
 				55CCD2561DCA427D0087F0C1 /* FriendsTableViewController.swift in Sources */,
 				55CCD2441DCA41EC0087F0C1 /* AppDelegate.swift in Sources */,
