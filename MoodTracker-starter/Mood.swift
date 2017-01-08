@@ -9,5 +9,7 @@
 import Foundation
 
 enum Mood {
-    
+    case happy = "😁"
+    case medium = "😑"
+    case angry = "😡"
 }
