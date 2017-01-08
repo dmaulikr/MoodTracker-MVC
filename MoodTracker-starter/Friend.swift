@@ -9,6 +9,7 @@
 import Foundation
 
 class Friend {
-    
+    let name: String
+    var mood: Mood
     
 }
