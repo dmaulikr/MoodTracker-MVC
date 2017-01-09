@@ -14,6 +14,9 @@ class FriendsTableViewController: UITableViewController {
     @IBAction func addButton(segue: UIStoryboardSegue) {
         
     }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 
     
 }
