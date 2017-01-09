@@ -11,6 +11,9 @@ import UIKit
 
 class FriendsTableViewController: UITableViewController {
     
-    
+    @IBAction func addButton(segue: UIStoryboardSegue) {
+        
+    }
+
     
 }
