@@ -18,5 +18,6 @@ class FriendTableViewCell: UITableViewCell {
     @IBOutlet weak var moodButton: UIButton!
     @IBAction func moodButtonPressed(_ sender: Any) {
         let newMood = friendsTableViewController.nextMood(mood: friend.mood) //go to next mood when button tapped
+        friendsTableViewController.updateFriend(friend: friend, mood: newMood) //tell controller + update model/view
     }
 }
