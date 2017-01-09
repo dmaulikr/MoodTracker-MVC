@@ -28,7 +28,8 @@ class FriendsTableViewController: UITableViewController {
     }
     
     func updateFriend(friend: Friend, mood: Mood) {
-        
+        friend.mood = mood //update model
+        tableView.reloadData() //update view
     }
     
 }
