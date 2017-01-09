@@ -20,7 +20,9 @@ class FriendsTableViewController: UITableViewController {
     }
     
     var friendArray = [Friend]() {
-        
+        didSet {
+            tableView.reloadData()
+        }
     }
     
     func nextMood(mood: Mood) -> Mood {
