@@ -19,6 +19,10 @@ class FriendsTableViewController: UITableViewController {
         super.viewDidLoad()
     }
     
+    var friendArray = [Friend]() {
+        
+    }
+    
     func nextMood(mood: Mood) -> Mood {
         switch mood {
         case .happy: return .angry
