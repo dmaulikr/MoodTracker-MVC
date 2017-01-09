@@ -14,10 +14,17 @@ class FriendsTableViewController: UITableViewController {
     @IBAction func addButton(segue: UIStoryboardSegue) {
         
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
     func nextMood(mood: Mood) -> Mood {
+        switch mood {
+        case .happy: return .angry
+        case .medium: return .happy
+        case .angry: return .medium
+        }
     }
     
 }
