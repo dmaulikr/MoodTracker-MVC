@@ -10,7 +10,7 @@ import UIKit
 
 class FriendTableViewCell: UITableViewCell {
     
-    
+    var friend: Friend!
     
     
 }
