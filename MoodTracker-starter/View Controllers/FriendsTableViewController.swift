@@ -32,4 +32,7 @@ class FriendsTableViewController: UITableViewController {
         tableView.reloadData() //update view
     }
     
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    }
+    
 }
