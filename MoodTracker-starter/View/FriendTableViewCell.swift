@@ -10,7 +10,9 @@ import UIKit
 
 class FriendTableViewCell: UITableViewCell {
     
+    var friendsTableViewController: FriendsTableViewController!
     var friend: Friend!
+    
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var moodButton: UIButton!
