@@ -11,6 +11,6 @@ import UIKit
 class FriendTableViewCell: UITableViewCell {
     
     var friend: Friend!
-    
+    @IBOutlet weak var nameLabel: UILabel!
     
 }
