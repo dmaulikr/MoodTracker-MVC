@@ -12,5 +12,7 @@ class FriendTableViewCell: UITableViewCell {
     
     var friend: Friend!
     @IBOutlet weak var nameLabel: UILabel!
-    
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var moodButton: UIButton!
+
 }
