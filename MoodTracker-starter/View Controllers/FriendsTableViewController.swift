@@ -17,6 +17,7 @@ class FriendsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    func nextMood(mood: Mood) -> Mood {
+    }
     
 }
