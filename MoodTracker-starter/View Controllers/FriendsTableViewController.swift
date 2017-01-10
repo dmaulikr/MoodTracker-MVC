@@ -15,6 +15,8 @@ class FriendsTableViewController: UITableViewController {
         
     }
     static let happyString = "Clap along if you feel like a room without a roof!"
+    static let mediumString = "I dont %@#$ w/ youuuuuuu!"
+    static let angryString = "Why you gotta fight with me at Cheesecake!!!"
     
     override func viewDidLoad() {
         super.viewDidLoad()
