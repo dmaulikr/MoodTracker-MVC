@@ -14,6 +14,7 @@ class FriendsTableViewController: UITableViewController {
     @IBAction func addButton(segue: UIStoryboardSegue) {
         
     }
+    static let happyString = "Clap along if you feel like a room without a roof!"
     
     override func viewDidLoad() {
         super.viewDidLoad()
