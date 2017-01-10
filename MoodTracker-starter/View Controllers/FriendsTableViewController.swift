@@ -51,6 +51,7 @@ class FriendsTableViewController: UITableViewController {
         
         cell.friendsTableViewController = self //assign current view controller as the controller
         
+        cell.nameLabel.text = friend.name
         
         return cell
     }
