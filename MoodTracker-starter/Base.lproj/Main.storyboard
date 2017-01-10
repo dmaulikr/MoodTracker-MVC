@@ -72,6 +72,8 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="descriptionLabel" destination="qhZ-su-edY" id="Lrm-KD-69K"/>
+                                    <outlet property="moodButton" destination="Fea-dc-gC1" id="Qzu-TV-zMS"/>
                                     <outlet property="nameLabel" destination="K8c-qa-EME" id="0wk-sT-Nca"/>
                                 </connections>
                             </tableViewCell>
