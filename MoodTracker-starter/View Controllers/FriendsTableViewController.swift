@@ -53,6 +53,10 @@ class FriendsTableViewController: UITableViewController {
         
         cell.nameLabel.text = friend.name
         
+        switch friend.mood {
+            
+        }
+        
         return cell
     }
     
