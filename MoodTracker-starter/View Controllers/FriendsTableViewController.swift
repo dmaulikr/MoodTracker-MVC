@@ -63,6 +63,8 @@ class FriendsTableViewController: UITableViewController {
 
         }
         
+        cell.moodButton.setTitle(friend.mood.rawValue, for: .normal)
+        
         return cell
     }
     
