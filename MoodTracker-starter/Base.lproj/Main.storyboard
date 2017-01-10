@@ -60,6 +60,9 @@
                                             <rect key="frame" x="326" y="9.5" width="33" height="47"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                             <state key="normal" title="😡"/>
+                                            <connections>
+                                                <action selector="moodButtonPressed:" destination="FY2-3Z-fSX" eventType="touchUpInside" id="XoZ-jq-Maa"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>
