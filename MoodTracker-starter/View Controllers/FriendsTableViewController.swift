@@ -48,4 +48,7 @@ class FriendsTableViewController: UITableViewController {
         
     }
     
+    override func unwind(for unwindSegue: UIStoryboardSegue, towardsViewController subsequentVC: UIViewController) {
+        
+    }
 }
