@@ -54,7 +54,13 @@ class FriendsTableViewController: UITableViewController {
         cell.nameLabel.text = friend.name
         
         switch friend.mood {
-            
+        case .happy:
+            cell.descriptionLabel.text = FriendsTableViewController.happyString
+        case .medium:
+            cell.descriptionLabel.text = FriendsTableViewController.mediumString
+        case .angry:
+            cell.descriptionLabel.text = FriendsTableViewController.angryString
+
         }
         
         return cell
