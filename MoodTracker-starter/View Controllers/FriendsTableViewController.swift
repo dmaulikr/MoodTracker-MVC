@@ -46,6 +46,11 @@ class FriendsTableViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FriendTableViewCell") as! FriendTableViewCell
+        let friend = friendArray[indexPath.row]
+        
+        cell.friendsTableViewController = self //assign current view controller as the controller
+        
+        
         return cell
     }
     
