@@ -12,6 +12,12 @@ class AddFriendViewController: UIViewController {
 
     @IBOutlet weak var friendTextField: UITextField!
     @IBOutlet weak var moodSegmentedControl: UISegmentedControl!
+    
+    var moodStatus: Mood!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
