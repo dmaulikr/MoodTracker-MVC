@@ -87,7 +87,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="8nk-hD-nlz">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="hho-DA-H4I"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="hho-DA-H4I">
+                            <connections>
+                                <segue destination="kJ8-tL-tXi" kind="show" id="8BW-8B-as5"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hj0-JK-yHL" userLabel="First Responder" sceneMemberID="firstResponder"/>
