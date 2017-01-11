@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="991" y="15"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Friend View Controller-->
         <scene sceneID="c43-VD-Gyb">
             <objects>
-                <viewController id="kJ8-tL-tXi" sceneMemberID="viewController">
+                <viewController id="kJ8-tL-tXi" customClass="AddFriendViewController" customModule="MoodTracker_starter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5VG-MW-mRl"/>
                         <viewControllerLayoutGuide type="bottom" id="ZzP-TL-XgH"/>
