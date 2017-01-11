@@ -10,6 +10,8 @@ import UIKit
 
 class AddFriendViewController: UIViewController {
 
+    @IBOutlet weak var friendTextField: UITextField!
+    @IBOutlet weak var moodSegmentedControl: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,15 +23,5 @@ class AddFriendViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
