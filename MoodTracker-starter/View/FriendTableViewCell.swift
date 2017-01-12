@@ -9,7 +9,8 @@
 import UIKit
 
 protocol FriendsTableViewCellDelegate {
-    
+    func nextMood(mood: Mood) -> Mood
+    func updateFriend(friend: Friend, mood: Mood)
 }
 
 class FriendTableViewCell: UITableViewCell {
