@@ -29,6 +29,6 @@ class FriendTableViewCell: UITableViewCell {
         
 //        let newMood = friendsTableViewController.nextMood(mood: friend.mood) //go to next mood when button tapped
 //        friendsTableViewController.updateFriend(friend: friend, mood: newMood) //tell controller + update model/view
-        
+        let newMood = delegate!.nextMood(mood: friend.mood) //go to next mood when button tapped
     }
 }
