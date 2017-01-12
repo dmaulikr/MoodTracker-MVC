@@ -21,6 +21,9 @@ class AddFriendViewController: UIViewController {
                 let friendName = friendTextField.text
                 switch moodSegmentedControl.selectedSegmentIndex {
                     case 0: moodStatus = Mood.happy
+                    case 1: moodStatus = Mood.medium
+                    case 2: moodStatus = Mood.angry
+                    default: break
                 }
             }
         }
