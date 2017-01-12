@@ -26,6 +26,8 @@ class AddFriendViewController: UIViewController {
                     default: break
                 }
                 let friend = Friend(name: friendName!, mood: moodStatus)
+                let destination = segue.destination as! FriendsTableViewController
+                destination.friendArray.append(friend)
             }
         }
     }
