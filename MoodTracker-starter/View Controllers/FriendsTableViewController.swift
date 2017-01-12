@@ -9,7 +9,7 @@
 import UIKit
 
 
-class FriendsTableViewController: UITableViewController {
+class FriendsTableViewController: UITableViewController{
     
     @IBAction func addButton(segue: UIStoryboardSegue) {
         

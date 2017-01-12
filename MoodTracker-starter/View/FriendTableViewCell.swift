@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol FriendsTableViewCellDelegate {
+    
+}
+
 class FriendTableViewCell: UITableViewCell {
     
     var friendsTableViewController: FriendsTableViewController!
