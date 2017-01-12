@@ -19,6 +19,8 @@ class AddFriendViewController: UIViewController {
         if let identifier = segue.identifier {
             if identifier == "AddFriend" {
                 let friendName = friendTextField.text
+                switch moodSegmentedControl.selectedSegmentIndex {
+                }
             }
         }
     }
