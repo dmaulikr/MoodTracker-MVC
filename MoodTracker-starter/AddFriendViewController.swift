@@ -16,7 +16,8 @@ class AddFriendViewController: UIViewController {
     var moodStatus: Mood!
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        if let identifier = segue.identifier {
+        }
     }
     
     
