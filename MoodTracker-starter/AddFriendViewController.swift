@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol AddFriendViewControllerDelegate {
+    func addFriend(f: Friend)
+}
+
 class AddFriendViewController: UIViewController {
 
     @IBOutlet weak var friendTextField: UITextField!
