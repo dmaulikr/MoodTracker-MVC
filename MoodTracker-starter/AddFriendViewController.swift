@@ -18,6 +18,7 @@ class AddFriendViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let identifier = segue.identifier {
             if identifier == "AddFriend" {
+                let friendName = friendTextField.text
             }
         }
     }
