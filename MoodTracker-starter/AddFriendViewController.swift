@@ -25,6 +25,7 @@ class AddFriendViewController: UIViewController {
                     case 2: moodStatus = Mood.angry
                     default: break
                 }
+                let friend = Friend(name: friendName!, mood: moodStatus)
             }
         }
     }
