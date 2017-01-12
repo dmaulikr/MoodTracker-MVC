@@ -15,7 +15,10 @@ protocol FriendsTableViewCellDelegate {
 
 class FriendTableViewCell: UITableViewCell {
     
-    var friendsTableViewController: FriendsTableViewController!
+    
+//    var friendsTableViewController: FriendsTableViewController!
+    
+    var delegate: FriendsTableViewCellDelegate?
     var friend: Friend!
     
     @IBOutlet weak var nameLabel: UILabel!
