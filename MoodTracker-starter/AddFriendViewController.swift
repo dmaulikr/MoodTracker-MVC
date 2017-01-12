@@ -8,9 +8,9 @@
 
 import UIKit
 
-protocol AddFriendViewControllerDelegate {
-    func addFriend(f: Friend)
-}
+//protocol AddFriendViewControllerDelegate {
+//    func addFriend(f: Friend)
+//}
 
 class AddFriendViewController: UIViewController {
 
